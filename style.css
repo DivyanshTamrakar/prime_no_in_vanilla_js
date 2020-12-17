@@ -1,15 +1,27 @@
 body {
     margin: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 
 .header {
     text-align: center;
+    background-color: royalblue;
+    padding: 1rem;
+    color: white;
+    margin-top: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 
 .Input{
     margin: auto;
     text-align: center;
+    background-color: yellow;
+    padding: 2rem;
 }
 .Input-section{
     height: 10vh;
@@ -18,4 +30,29 @@ body {
 }
 .margin{
     margin: 1rem;
+}
+
+.output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: violet;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+#btnn{
+    margin-top: 1rem;
+    font-size: medium;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-color: black;
+    background-color:royalblue;
+    color: white;
+}
+.btn{
+    text-align: center;
 }
