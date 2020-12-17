@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    text-align: center;
+}
+
+
+.Input{
+    margin: auto;
+    text-align: center;
+}
+.Input-section{
+    height: 10vh;
+    width: 80%;
+    text-align: center;
+}
+.margin{
+    margin: 1rem;
+}
