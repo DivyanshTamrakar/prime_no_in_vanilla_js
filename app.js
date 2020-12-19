@@ -30,13 +30,16 @@ function test_prime(n) {
 function clickHandler() {
 
     getinput = test_prime(input.value);
+    
 
     if (getinput === true) {
-        output.inneText = "Number is Prime";
-    } else {
+        console.log("under if "+ getinput);
+        output.innerText = "Number is Prime";
+    } 
+    if(getinput === false) {
+        console.log("under else "+ getinput);
         output.innerText = "Number is not Prime";
     }
-
 
 
 
